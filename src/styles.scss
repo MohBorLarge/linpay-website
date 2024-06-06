@@ -1,1 +1,98 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  font-family: "Euclid Circular A", sans-serif;
+}
+
+body {
+  font-family: "General Sans", sans-serif;
+}
+
+.bg-1 {
+  background-color: #ffffff;
+  background-image: url("/assets/svg/abstract-1.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 300px;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-2 {
+  background-color: #030119;
+  
+  background-image: url("/assets/svg/abstract-2.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 550px;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-3 {
+  // background: linear-gradient(22deg, rgba(3,1,25,1) 72%, rgba(24,255,211,1) 100%);
+  background-image: url("/assets/svg/abstract-1.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 350px;
+  width: 100%;
+  height: 100%;
+}
+
+// .gradient {
+//   border-radius: 305px;
+//   opacity: 0.5;
+//   background: linear-gradient(90deg, #96e5d3 27.76%, #e3a57b 73.31%);
+//   filter: blur(124px);
+// }
+
+// .grad-2 {
+//   background: rgb(255, 255, 255);
+//   background:
+//     radial-gradient(circle at 35% 50%, rgba(188, 249, 235, 1) 30%, transparent 31%),
+//     radial-gradient(circle at 65% 50%, rgba(247, 225, 209, 1) 30%, transparent 31%),
+//     white;
+// }
+
+// .grad-2 {
+//   background: rgb(255, 255, 255);
+//   background:
+//     radial-gradient(circle at 45% 50%, rgba(188, 249, 235, 1) 10%, transparent 11%),
+//     radial-gradient(circle at 55% 50%, rgba(247, 225, 209, 1) 10%, transparent 11%),
+//     white;
+// }
+
+// .grad-2 {
+//   background: #ffffff;
+//   background:
+//     radial-gradient(circle at 45% 50%, rgba(188, 249, 235, 1) 40%, rgba(247, 225, 209, 1) 60%),
+//     radial-gradient(circle at 55% 50%, rgba(247, 225, 209, 1) 40%, rgba(188, 249, 235, 1) 60%);
+// }
+
+// .grad-2 {
+//   background: rgb(255, 255, 255);
+//   background: linear-gradient(
+//     90deg,
+//     #ffffff 28%,
+//     rgba(188, 249, 235, 1) 37%,
+//     rgba(247, 225, 209, 1) 38%,
+//     #ffffff 46%
+//   );
+// }
+
+// .grad-2 {
+//   background: rgb(255, 255, 255);
+//   background:
+//     radial-gradient(circle at 45% 50%, rgba(188, 249, 235, 1) 10%, transparent 11%),
+//     radial-gradient(circle at 55% 50%, rgba(247, 225, 209, 1) 10%, transparent 11%),
+//     white;
+// }
+
+// .grad-2 {
+//   background: #ffffff;
+//   background:
+//    linear-gradient(to right, rgba(188, 249, 235, 1) 0%, rgba(247, 225, 209, 1) 100%);
+// }
